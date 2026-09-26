@@ -29,4 +29,4 @@ export default defineConfig([
     files: ['**/*.test.{js,jsx}', 'src/test/**/*.js'],
     languageOptions: { globals: { ...globals.browser, ...globals.node } },
   },
-])
+]);
